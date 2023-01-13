@@ -23,6 +23,7 @@ Within the "Sensor Processors" we have Image Processor for segmenting the plant 
 3. We deploy the model to segment live images, to then send to downstream image processing (disease detection and picking decider).
 
 Picking Decider:
+![alt text](https://github.com/Eochs/AI-System-Designs/blob/main/plant_factory_picking_decider.png?raw=true)
 Based on visual input, from image segmenter model, and possibly LIDAR for 3D depth information, decide whether we should harvest this plant or not.
 1. LSTM for sequence prediction (more water, more of nutrient X, harvest)
 2. Simulation errors: have expert gardener that makes decisions at certain points in plant’s life, and see if decision making from model matches.
