@@ -1,2 +1,2 @@
 # AI-System-Designs
-Random musings on ML systems
+Bits and pieces from ML systems I've worked on.
