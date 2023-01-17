@@ -13,7 +13,7 @@
 Based on this will have two systems:
 1. build a recommender of possible violations that should be looked at by analysts. These are rank-ordered by certainty of violation.
 2. If the violation is over a threshold of certainty, automatically remove content with an appeal flow for the user.
-TODO: image of recommender system with dashboard describing why content is flagged.
+![alt text](https://github.com/Eochs/AI-System-Designs/blob/main/Content-Detection-SD.png?raw=true)
 
 ## Data:
 Target Variable: whether an analyst explicitly flags the recommended violation. Negative is explicit or implicit if they ignore the recommendation.
